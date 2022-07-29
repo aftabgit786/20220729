@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+}
+.body{
+     background-image: url(4.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: auto;
+}
+
+.div1{
+    text-align: center;
+    font-size: 10px;
+    color: #ffbb00;
+}
+
+.h1{
+    font-size: 70px;
+    text-align: center;
+}
+.h2{
+    font-size: 40px;
+}
+.input{
+    font-size: 25px;
+    border: white;
+    border-radius: 10px;
+}
+.input:hover{
+    background-color: rgb(211, 211, 143);
+}
+.button{
+    color: black;
+    background-color: white;
+    border: white;
+    border-radius: 50px;
+    font: size 30px;
+}
+.button:hover{
+    color: white;
+    background-color: rgb(185, 168, 68);
+}

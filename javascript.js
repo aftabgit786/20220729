@@ -4,8 +4,8 @@ function myzakatf(){
     let gold = document.getElementById("amountOfGold").value;
     let silver = document.getElementById("amountOfSilver").value;
 
-   let fgold = gold*120000;
-   let fsilver = silver*1500;
+   let fgold = gold*120000/40;
+   let fsilver = silver*1500/40;
    let fzakat = fgold+fsilver+amount/40;
    document.getElementById("h1").innerText=fzakat; 
 }
